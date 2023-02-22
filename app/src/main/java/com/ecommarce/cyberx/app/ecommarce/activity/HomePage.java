@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.ecommarce.cyberx.app.ecommarce.R;
-import com.ecommarce.cyberx.app.ecommarce.databinding.ActivityMainBinding;
+import com.ecommarce.cyberx.app.ecommarce.databinding.ActivityHomePageBinding;
 
-public class MainActivity extends AppCompatActivity {
-ActivityMainBinding mainBinding;
+public class HomePage extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mainBinding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(mainBinding.getRoot());
+        setContentView(R.layout.activity_home_page);
+
     }
 }
