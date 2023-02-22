@@ -4,4 +4,7 @@
     <!-- to toggle the open close button of the navigation drawer -->
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <string name="by_signing_up_you_re_agree_to_our_terms_amp_conditions_and_privacy_policy">
+        By signing up, you are agree to our <font color='#0164ff'>Terms &amp; Conditions
+    </font>and <font color='#0164ff'>Privacy Policy</font></string>
 </resources>
