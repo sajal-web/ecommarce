@@ -16,10 +16,16 @@ ActivityLoginBinding loginBinding;
         super.onCreate(savedInstanceState);
         loginBinding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(loginBinding.getRoot());
+
     }
 
     public void gotoSignUpPage(View view) {
         Intent intent = new Intent(LoginActivity.this,RegisterActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoOtpPage(View view) {
+        Intent intent = new Intent(LoginActivity.this,OtpAuth.class);
         startActivity(intent);
     }
 }
