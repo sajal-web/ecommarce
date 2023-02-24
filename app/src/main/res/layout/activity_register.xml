@@ -41,6 +41,7 @@
                 android:layout_marginStart="20dp"
                 app:startIconDrawable="@drawable/email_icon"
                 android:layout_marginTop="25dp"
+                app:startIconTint="@color/colorPrimary"
                 android:layout_marginEnd="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -58,6 +59,7 @@
                 android:layout_marginStart="20dp"
                 app:startIconDrawable="@drawable/person_icon"
                 android:layout_marginTop="10dp"
+                 app:startIconTint="@color/colorPrimary"
                 android:layout_marginEnd="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -76,6 +78,7 @@
                 android:layout_marginStart="20dp"
                 app:startIconDrawable="@drawable/call_icon"
                 android:layout_marginTop="10dp"
+                 app:startIconTint="@color/colorPrimary"
                 android:layout_marginEnd="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -95,6 +98,7 @@
                 app:startIconDrawable="@drawable/lock_icon"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                app:startIconTint="@color/colorPrimary"
                 android:layout_marginEnd="20dp">
 
                 <com.google.android.material.textfield.TextInputEditText
