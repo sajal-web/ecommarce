@@ -10,6 +10,5 @@
         android:icon="@drawable/wow_icon"/>
     <item android:title="Cart"
         android:icon="@drawable/wow_icon"/>
-    <item android:title="My Account"
-        android:icon="@drawable/wow_icon"/>
+
 </menu>
