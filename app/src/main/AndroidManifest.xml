@@ -25,7 +25,7 @@
             android:name=".activity.OtpAuth"
             android:exported="false" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.HomePage"
             android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
@@ -34,7 +34,7 @@
             android:name=".activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.HomePage"
+            android:name=".activity.LoginActivity"
             android:windowSoftInputMode="adjustPan"
             android:exported="true">
             <intent-filter>
