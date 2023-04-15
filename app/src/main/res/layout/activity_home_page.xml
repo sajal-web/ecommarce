@@ -9,6 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
+        android:scrollbars="none"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
@@ -81,8 +82,11 @@
                     android:layout_marginEnd="10dp"
                     android:background="@drawable/shadow_background" />
 
+
+
+
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Best Arts"
                     android:textColor="@color/black"
@@ -91,10 +95,544 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"/>
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableEnd="@drawable/forward_arrow"
                     android:text="Simply tab a card and show details"/>
+
+                <HorizontalScrollView
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/google_icon"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:autoSizeTextType="uniform"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+
+
+                                </LinearLayout>
+
+
+                        
+
+
+
+                        </LinearLayout>
+
+                         <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                             android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/google_icon"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:autoSizeTextType="uniform"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+<LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                             android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/google_icon"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:autoSizeTextType="uniform"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/black"
+                                        android:text="Hi There text is here"/>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Top Artists"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableEnd="@drawable/forward_arrow"
+                    android:text="Based on world top arts"/>
+
+
+                <HorizontalScrollView
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:gravity="center"
+                                    android:text="Hi There text is here"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Top Category"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableEnd="@drawable/forward_arrow"
+                    android:text="Based on world top arts"/>
+
+                <HorizontalScrollView
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recommended for you"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawableEnd="@drawable/forward_arrow"
+                    android:text="Based on world top arts"/>
+
+                <HorizontalScrollView
+                    android:scrollbars="none"
+                    android:layout_marginBottom="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="200dp"
+                                    android:layout_gravity="center"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/google_icon"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:gravity="center"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Hi There text is here"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
             </LinearLayout>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
