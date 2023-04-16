@@ -28,8 +28,9 @@
                   android:layout_width="60dp"
                   android:layout_height="60dp"
                   android:padding="5dp"
+                  android:scaleType="centerCrop"
                   app:shapeAppearanceOverlay="@style/circleImageView"
-                  android:src="@drawable/google_icon"
+                  android:src="@drawable/ananya"
                   android:layout_margin="5dp"/>
               <LinearLayout
                   android:layout_width="match_parent"
@@ -41,7 +42,7 @@
                   <TextView
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
-                      android:text="Good Afternoon" />
+                      android:text="Good Morning" />
 
                   <TextView
                       android:layout_width="wrap_content"
@@ -121,103 +122,139 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical">
-                                    <ImageView
+                                    <androidx.cardview.widget.CardView
                                         android:layout_width="200dp"
-                                        android:layout_gravity="center"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/google_icon"/>
+                                        app:cardCornerRadius="8dp"
+                                        android:elevation="10dp">
+
+
+
+
+
+                                        <ImageView
+                                            android:layout_width="200dp"
+                                            android:background="@drawable/shadow_background"
+                                            android:layout_gravity="center"
+                                            android:scaleType="centerCrop"
+                                            android:layout_height="100dp"
+                                            android:src="@drawable/monalisa"/>
+
+                                    </androidx.cardview.widget.CardView>
+
                                     <TextView
                                         android:layout_width="match_parent"
-                                        android:gravity="center"
                                         android:layout_height="wrap_content"
                                         android:autoSizeTextType="uniform"
+                                        android:textSize="16sp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
+                                        android:text="Mona Lisa"/>
                                     <TextView
                                         android:layout_width="match_parent"
-                                        android:gravity="center"
                                         android:layout_height="wrap_content"
-                                        android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
+                                        android:text="It should come as no surp...."/>
 
 
                                 </LinearLayout>
 
 
-                        
+
 
 
 
                         </LinearLayout>
-
-                         <LinearLayout
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
-                             android:layout_marginStart="10dp"
+                            android:layout_marginStart="10dp"
                             android:layout_height="wrap_content">
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
                                     <ImageView
                                         android:layout_width="200dp"
                                         android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/google_icon"/>
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:gravity="center"
-                                        android:layout_height="wrap_content"
-                                        android:autoSizeTextType="uniform"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:gravity="center"
-                                        android:layout_height="wrap_content"
-                                        android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
+                                        android:src="@drawable/lastsupper"/>
 
-                                </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="The Last Supper"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Leonardo, the original..."/>
+
+
+                            </LinearLayout>
+
+
+
+
+
 
                         </LinearLayout>
-
-<LinearLayout
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
-                             android:layout_marginStart="10dp"
+                            android:layout_marginStart="10dp"
                             android:layout_height="wrap_content">
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
                                     <ImageView
                                         android:layout_width="200dp"
+                                        android:background="@drawable/shadow_background"
                                         android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
                                         android:layout_height="100dp"
-                                        android:src="@drawable/google_icon"/>
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:gravity="center"
-                                        android:layout_height="wrap_content"
-                                        android:autoSizeTextType="uniform"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
-                                    <TextView
-                                        android:layout_width="match_parent"
-                                        android:gravity="center"
-                                        android:layout_height="wrap_content"
-                                        android:textColor="@color/black"
-                                        android:text="Hi There text is here"/>
+                                        android:src="@drawable/monalisa"/>
 
-                                </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="The Starry Night"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="The comparatively abstract...."/>
+
+
+                            </LinearLayout>
+
+
+
+
+
 
                         </LinearLayout>
-
-
 
                     </LinearLayout>
 
@@ -254,93 +291,156 @@
                         android:orientation="horizontal" >
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="100dp"
                             android:orientation="horizontal"
                             android:layout_height="wrap_content">
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
-                                    android:layout_width="200dp"
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:padding="5dp"
                                     android:layout_gravity="center"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    android:scaleType="centerCrop"
+                                    app:shapeAppearanceOverlay="@style/circleImageView"
+                                    android:src="@drawable/vinchi"
+                                    android:layout_margin="5dp"/>
 
                                 <TextView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:text="Leaonardo da Vinchi "
                                     android:gravity="center"
-                                    android:text="Hi There text is here"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
-
-                            </LinearLayout>
-
-
-
-
-
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_marginStart="10dp"
-                            android:layout_height="wrap_content">
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
-                                <ImageView
-                                    android:layout_width="200dp"
-                                    android:layout_gravity="center"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:gravity="center"
-                                    android:layout_height="wrap_content"
-                                    android:autoSizeTextType="uniform"
-                                    android:textStyle="bold"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
-
                             </LinearLayout>
 
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="100dp"
                             android:orientation="horizontal"
                             android:layout_marginStart="10dp"
                             android:layout_height="wrap_content">
                             <LinearLayout
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
-                                    android:layout_width="200dp"
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:padding="5dp"
                                     android:layout_gravity="center"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    android:scaleType="centerCrop"
+                                    app:shapeAppearanceOverlay="@style/circleImageView"
+                                    android:src="@drawable/michelango"
+                                    android:layout_margin="5dp"/>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
-                                    android:textStyle="bold"
+                                    android:text="Michelangelo  "
+                                    android:gravity="center"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:padding="5dp"
+                                    android:layout_gravity="center"
+                                    app:shapeAppearanceOverlay="@style/circleImageView"
+                                    android:src="@drawable/rambrant"
+                                    android:layout_margin="5dp"/>
+
                                 <TextView
                                     android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:autoSizeTextType="uniform"
+                                    android:text="Rembrandt"
                                     android:gravity="center"
-                                    android:layout_height="wrap_content"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:padding="5dp"
+                                    android:layout_gravity="center"
+                                    app:shapeAppearanceOverlay="@style/circleImageView"
+                                    android:src="@drawable/varmeer"
+                                    android:layout_margin="5dp"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:autoSizeTextType="uniform"
+                                    android:text="Johannes Vermeer"
+                                    android:gravity="center"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:orientation="horizontal"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:padding="5dp"
+                                    android:layout_gravity="center"
+                                    app:shapeAppearanceOverlay="@style/circleImageView"
+                                    android:src="@drawable/eugene"
+                                    android:layout_margin="5dp"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:autoSizeTextType="uniform"
+                                    android:text="Eugène Delacroix"
+                                    android:gravity="center"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
 
@@ -389,25 +489,34 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:background="@drawable/shadow_background"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/painting"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Painting"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Painting is the practice of...."/>
 
 
                             </LinearLayout>
@@ -418,7 +527,6 @@
 
 
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
@@ -428,30 +536,42 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/popart"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Pop Art"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Pop art is an art moveme..."/>
+
 
                             </LinearLayout>
 
-                        </LinearLayout>
 
+
+
+
+
+                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
@@ -461,31 +581,43 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:background="@drawable/shadow_background"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/contemporary"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Contemporary art"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Contemporary art is the..."/>
+
 
                             </LinearLayout>
 
+
+
+
+
+
                         </LinearLayout>
-
-
 
                     </LinearLayout>
 
@@ -508,12 +640,12 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:drawableEnd="@drawable/forward_arrow"
-                    android:text="Based on world top arts"/>
+                    android:text="Based on your choice"/>
 
                 <HorizontalScrollView
                     android:scrollbars="none"
-                    android:layout_marginBottom="80dp"
                     android:layout_width="match_parent"
+                    android:layout_marginBottom="60dp"
                     android:layout_height="match_parent">
 
                     <LinearLayout
@@ -530,25 +662,34 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:background="@drawable/shadow_background"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/contemporary"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Painting"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Painting is the practice of...."/>
 
 
                             </LinearLayout>
@@ -559,7 +700,6 @@
 
 
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
@@ -569,30 +709,42 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/theunknown"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Pop Art"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Pop art is an art moveme..."/>
+
 
                             </LinearLayout>
 
-                        </LinearLayout>
 
+
+
+
+
+                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:orientation="horizontal"
@@ -602,31 +754,43 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
-                                <ImageView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="200dp"
-                                    android:layout_gravity="center"
                                     android:layout_height="100dp"
-                                    android:src="@drawable/google_icon"/>
+                                    app:cardCornerRadius="8dp"
+                                    android:elevation="10dp">
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:background="@drawable/shadow_background"
+                                        android:layout_gravity="center"
+                                        android:scaleType="centerCrop"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/contemporary"/>
+
+                                </androidx.cardview.widget.CardView>
+
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
                                     android:autoSizeTextType="uniform"
+                                    android:textSize="16sp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Contemporary art"/>
                                 <TextView
                                     android:layout_width="match_parent"
-                                    android:gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black"
-                                    android:text="Hi There text is here"/>
+                                    android:text="Contemporary art is the..."/>
+
 
                             </LinearLayout>
 
+
+
+
+
+
                         </LinearLayout>
-
-
 
                     </LinearLayout>
 

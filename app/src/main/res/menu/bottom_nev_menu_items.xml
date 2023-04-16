@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Home"
-        android:icon="@drawable/wow_icon"
+        android:icon="@drawable/home_icon"
         />
     <item android:title="Catagory"
-        android:icon="@drawable/wow_icon"/>
+        android:icon="@drawable/catagory_icon"/>
     <item android:title="Artist"
-        android:icon="@drawable/wow_icon"/>
+        android:icon="@drawable/artist_icon"/>
     <item android:title="Cart"
-        android:icon="@drawable/wow_icon"/>
+        android:icon="@drawable/cart_icon"/>
 
 </menu>
