@@ -21,9 +21,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_margin="5dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"
                 android:id="@+id/artistLayout"
                 android:orientation="horizontal"
                 android:padding="4dp">
@@ -46,82 +45,121 @@
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
                                 android:padding="10dp"
-                                android:layout_gravity="start"
+                                android:layout_gravity="center"
                                 android:scaleType="centerCrop"
                                 app:shapeAppearanceOverlay="@style/roundedCorner"
                                 android:src="@drawable/dibyendu"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="18sp"
                                 android:text="Dibyendu Panja"
                                 android:textColor="@color/black"
                                 android:gravity="center"/>
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:textSize="16sp"
+                                android:text="Category : Painting, Sketch and Portrait"
+                                android:textColor="@color/black"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="16sp"
+                                android:text="Bio related the artist wrote by own ... default (kuch dena parega abhi mood nahi hai)..........more"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_marginBottom="5dp"
+                                        android:textSize="18sp"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content"
+                                        android:text="30"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:textSize="14sp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Posts"/>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_marginBottom="5dp"
+                                        android:textSize="18sp"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content"
+                                        android:text="30K"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:textSize="14sp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Followers"/>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:layout_marginBottom="5dp"
+                                        android:textSize="18sp"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content"
+                                        android:text="30"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:gravity="center"
+                                        android:textSize="14sp"
+                                        android:layout_height="wrap_content"
+                                        android:text="Following"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
                         </LinearLayout>
                     </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_marginStart="8dp"
-                    android:layout_gravity="center"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:gravity="center"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="Follow"
-                        android:background="@drawable/follow_back"
-                        android:layout_gravity="right"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:padding="10dp"/>
-                </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:textSize="18sp"
-                            android:layout_marginTop="10dp"
-                            android:text="99k"
-                            android:textStyle="bold"
-                            android:textColor="@color/black"
-                            android:layout_height="wrap_content"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="5dp"
-                            android:text="Followers"
-                            android:textSize="18sp"
-                            android:layout_height="wrap_content"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:textSize="18sp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:text="99"
-                            android:textStyle="bold"
-                            android:textColor="@color/black"
-                            android:layout_height="wrap_content"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="5dp"
-                            android:text="Following"
-                            android:textSize="18sp"
-                            android:layout_height="wrap_content"/>
-                    </LinearLayout>
-                </LinearLayout>
+
             </LinearLayout>
              <LinearLayout
                 android:layout_width="match_parent"
@@ -130,20 +168,8 @@
                  android:layout_marginEnd="10dp"
                 android:orientation="vertical">
 
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_marginTop="-5dp"
-                     android:textSize="16sp"
-                     android:text="Category : Painting, Sketch and Portrait"
-                     android:textColor="@color/black"
-                     android:gravity="center"/>
 
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="16sp"
-                     android:text="Bio related the artist wrote by own ... default (kuch dena parega abhi mood nahi hai)..........more"/>
+
 
 <!--                    <LinearLayout-->
 <!--                        android:layout_width="wrap_content"-->
@@ -184,24 +210,20 @@
 
 <!--                    </LinearLayout>-->
                  <LinearLayout
-                     android:layout_width="wrap_content"
+                     android:layout_width="match_parent"
                      android:layout_height="wrap_content"
-                     android:layout_marginTop="25dp"
+                     android:layout_marginTop="10dp"
                      android:orientation="horizontal">
-                     <HorizontalScrollView
-                         android:scrollbars="none"
-                         android:layout_width="wrap_content"
-                         android:layout_height="wrap_content">
-
                          <LinearLayout
-                             android:layout_width="wrap_content"
+                             android:layout_width="match_parent"
                              android:layout_height="wrap_content"
                              android:orientation="horizontal" >
 
                              <TextView
                                  android:layout_width="wrap_content"
                                  android:layout_height="wrap_content"
-                                 android:text="Web"
+                                 android:text="Follow"
+                                 android:layout_weight="1"
                                  android:background="@drawable/follow_back"
                                  android:layout_gravity="right"
                                  android:textColor="@color/white"
@@ -213,7 +235,8 @@
                              <TextView
                                  android:layout_width="wrap_content"
                                  android:layout_height="wrap_content"
-                                 android:text="Instagram"
+                                 android:text="Message"
+                                 android:layout_weight="1"
                                  android:background="@drawable/follow_back"
                                  android:layout_gravity="right"
                                  android:textColor="@color/white"
@@ -221,106 +244,33 @@
                                  android:layout_margin="5dp"
                                  android:padding="10dp"
                                  android:gravity="center"/>
-
-                             <TextView
-                                 android:layout_width="wrap_content"
-                                 android:layout_height="wrap_content"
-                                 android:text="Facebook"
-                                 android:background="@drawable/follow_back"
-                                 android:layout_gravity="right"
-                                 android:textColor="@color/white"
-                                 android:textStyle="bold"
-                                 android:layout_margin="5dp"
-                                 android:padding="10dp"
-                                 android:gravity="center"/>
-
-                             <TextView
-                                 android:layout_width="wrap_content"
-                                 android:layout_height="wrap_content"
-                                 android:text="Twitter"
-                                 android:background="@drawable/follow_back"
-                                 android:layout_gravity="right"
-                                 android:textColor="@color/white"
-                                 android:textStyle="bold"
-                                 android:layout_margin="5dp"
-                                 android:padding="10dp"
-                                 android:gravity="center"/>
-
-
-
                          </LinearLayout>
-
-                     </HorizontalScrollView>
-
-
-
-
                  </LinearLayout>
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:text="ARTS"
-                     android:layout_marginTop="15dp"
-                     android:textColor="@color/black"
-                     android:textSize="18sp"
-                     android:textStyle="bold"/>
+
 
             </LinearLayout>
-
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_height="wrap_content">
+                android:orientation="horizontal">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
+                    android:orientation="vertical" >
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayout"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:autoSizeTextType="uniform"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:text="Mona Lisa"/>
-                    <TextView
+                        android:layout_height="wrap_content">
+                    </com.google.android.material.tabs.TabLayout>
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="It should come as no surp...."/>
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:cardCornerRadius="8dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_gravity="center"
-                        android:elevation="10dp">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:background="@drawable/shadow_background"
-                            android:layout_gravity="center"
-                            android:scaleType="centerCrop"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/monalisa"/>
-
-                    </androidx.cardview.widget.CardView>
-
-
-
-
+                        android:layout_height="0dp"
+                        tools:layout_editor_absoluteX="8dp"/>
                 </LinearLayout>
-
-
-
-
-
-
             </LinearLayout>
-
-
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
 </FrameLayout>
