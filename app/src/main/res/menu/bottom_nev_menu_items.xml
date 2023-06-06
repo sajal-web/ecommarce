@@ -11,6 +11,7 @@
     <item android:title="Artist"
         android:id="@+id/artist_nev"
         android:icon="@drawable/artist_icon"/>
+
     <item android:title="Exhibition"
         android:id="@+id/exhibition_nev"
         android:icon="@drawable/explore"/>

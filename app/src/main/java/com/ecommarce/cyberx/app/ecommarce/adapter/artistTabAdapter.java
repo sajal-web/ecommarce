@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.ecommarce.cyberx.app.ecommarce.fragments.ArtWorkFragment;
+import com.ecommarce.cyberx.app.ecommarce.fragments.ArtistAttendExhibitionFragment;
 import com.ecommarce.cyberx.app.ecommarce.fragments.ArtistFragment;
 import com.ecommarce.cyberx.app.ecommarce.fragments.HomeFragment;
 
@@ -24,11 +26,11 @@ public class artistTabAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                HomeFragment homeFragment = new HomeFragment();
-                return  homeFragment;
+                ArtWorkFragment artWorkFragment = new ArtWorkFragment();
+                return  artWorkFragment;
               case 1:
-                ArtistFragment artistFragment = new ArtistFragment();
-                return  artistFragment;
+                ArtistAttendExhibitionFragment artistAttendExhibitionFragment = new ArtistAttendExhibitionFragment();
+                return  artistAttendExhibitionFragment;
             default:
                 return null;
         }

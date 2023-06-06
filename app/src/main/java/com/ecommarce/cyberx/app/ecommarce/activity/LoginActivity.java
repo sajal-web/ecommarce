@@ -28,4 +28,15 @@ ActivityLoginBinding loginBinding;
         Intent intent = new Intent(LoginActivity.this,OtpAuth.class);
         startActivity(intent);
     }
+
+    public void gotoForgotPasswordPage(View view) {
+        Intent intent = new Intent(LoginActivity.this,ForgotPassword.class);
+        startActivity(intent);
+    }
+
+    public void validateLogin(View view) {
+        Intent intent = new Intent(LoginActivity.this,HomePage.class);
+        startActivity(intent);
+        finish();
+    }
 }

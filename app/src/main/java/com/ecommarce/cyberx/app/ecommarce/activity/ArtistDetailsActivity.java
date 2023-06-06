@@ -10,7 +10,6 @@ import com.ecommarce.cyberx.app.ecommarce.R;
 import com.ecommarce.cyberx.app.ecommarce.adapter.artistTabAdapter;
 import com.ecommarce.cyberx.app.ecommarce.databinding.ActivityArtistDetailsBinding;
 import com.google.android.material.tabs.TabLayout;
-
 public class ArtistDetailsActivity extends AppCompatActivity {
         ActivityArtistDetailsBinding activityArtistDetailsBinding;
     @Override
@@ -34,17 +33,15 @@ public class ArtistDetailsActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 activityArtistDetailsBinding.viewPager.setCurrentItem(tab.getPosition());
             }
-
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
 
             }
-
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
 
             }
         });
-
+        activityArtistDetailsBinding.viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(activityArtistDetailsBinding.tabLayout));
     }
 }
